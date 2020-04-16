@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+#Cmake
+BUILD/
+build/
+Build/
+bUILD/
+CMakeFiles/
+*.tcl
