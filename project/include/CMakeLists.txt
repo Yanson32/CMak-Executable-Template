@@ -1,4 +1,4 @@
-# The FILES variable contains absolute paths to all the source files in this directory.
+# The FILES variable contains absolute paths to all the header files in this directory.
 set(FILES "")
 
 
