@@ -1,5 +1,5 @@
 # The FILES variable contains absolute paths to all the source files in this directory.
-set(FILES "")
+set(FILES "${CMAKE_CURRENT_LIST_DIR}/hello.cpp")
 
 
 # The DIRECTORIES variable is a list of all the subdirectories in this directory.
@@ -7,7 +7,7 @@ set(DIRECTORIES "")
 
 
 # Add all subdirectories
-foreach(DIR ${FILES})
+foreach(DIR ${DIRECTORIESS})
 	add_subdirectory("${DIR}")
 endforeach()
 

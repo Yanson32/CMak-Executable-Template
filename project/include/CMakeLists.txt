@@ -1,5 +1,5 @@
 # The FILES variable contains absolute paths to all the header files in this directory.
-set(FILES "")
+set(FILES "${CMAKE_CURRENT_LIST_DIR}/hello.h")
 
 
 # The DIRECTORIES variable is a list of all the subdirectories in this directory.
@@ -7,7 +7,7 @@ set(DIRECTORIES "")
 
 
 # Add all subdirectories
-foreach(DIR ${FILES})
+foreach(DIR ${DIRECTORIES})
 	add_subdirectory("${DIR}")
 endforeach()
 
