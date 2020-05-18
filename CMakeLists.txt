@@ -6,3 +6,7 @@ project("Example")
 
 add_subdirectory("project")
 
+
+# Add cpack 
+include("CPackConfig")
+include("CPack")
